@@ -70,11 +70,79 @@ described in detail below.
 1. [Analyze the results](#7-analyze-the-results)
 1. [Save your work](#8-save-your-work)
 
-## 1. Sign up for the Data Science Experience
 
-Sign up for IBM's [Data Science Experience](http://datascience.ibm.com/). By signing up for the Data Science Experience, two services: ``DSX-Spark`` and ``DSX-ObjectStore`` will be created in your IBM Cloud account.
+## Step 1. Sign up for the IBM Data Science Experience (DSX).   We recommend using the Firefox browser.
 
-## 2. Create the notebook
+__NOTE__: If you already have a DSX account, please skip to __Step 2__.
+
+#### Create an account.
+
+1.  Go to [http://datascience.ibm.com/](http://datascience.ibm.com/)
+
+2.  Click the Sign Up button on the top right
+
+> <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Sign%20Up%20Screen.png" width="624" height="300"/>
+
+
+3. Enter your email, click to accept the terms, and click Next. Note: If you already have an IBM id you can click Sign in with your IBM id -- if you don't have a DSX account one will be created for you.
+
+> <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20RegisterForCloud.png" width="624" height="300"/>
+
+4. On the next page, fill in the corresponding fields and click Create Account
+
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Enter%20Account%20Information.png" width="624" height="300"/>
+
+5. You will see the following screen. You need to go to your e-mail account to complete the sign up process. 
+
+ > <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20To%20Complete%20Account%20Check%20e-mail..png" width="624" height="300"/>
+
+6. In your e-mail inbox, there should be a message from The Bluemix Team. 
+
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20e-mail%20from%20Bluemix%20Team.png"/>
+
+7. Open the e-mail and click on Confirm Account. 
+
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Thankyou%20for%20Signing%20Up%20email.png" width="624" height="300"/>
+
+8. Go back to the DSX session, and enter your DSX user id (e-mail account) and click Continue. 
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Sign%20into%20DSX%20User%20ID.png" width="624" height="300"/>
+
+9. Enter your password and click Sign in. 
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Sign%20into%20DSX%20Password.png" width="624" height="300"/>
+ 
+10. Select the IBM Cloud Account (IBM), select the organization (your e-mail), and then select the space (dev) and click Continue.
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Select%20Organization%20and%20Space.png" width="624" height="300"/>
+
+ 
+11. It will take several minutes to set up the account. You will see several screens pop-up (e.g. Preparing Object-Storage, Initializing Environment). Wait until you see the following screen and then click on Get Started.
+
+>  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Done.png" width="624" height="300"/>
+
+
+
+ > You are now in the Data Science Experience landing page. Your environment is automatically set up with one Apache Spark instance and 5 GB of object storage. From here you can explore any of the tutorials, videos, sample notebooks, tutorials or articles in the community.
+
+>  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Data%20Science%20Experience%20Welcome.png" width="624" height="300"/>
+
+## Step 2. Create a project
+
+1. Click on Projects > View All Projects to see a list of your projects. You should only see a default project.
+
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20View%20All%20Projects.png" width="624" height="300"/>
+
+2. Click on the New project icon on the top right of the project list.
+
+ >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Create%20New%20Project.png" width="624" height="300"/>
+
+3. Type a name for your project. For instance, "DSX Lab". A Spark service and an object storage will be automatically selected as well as a container with a default name. A container is a directory on the object storage. Click on Create.
+
+ <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Enter%20Project%20Information.png" width="624" height="300"/>
+
+ > You are now in your new project where you can create notebooks and data assets as well as add collaborators.
+ 
+ <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20DSX%20Lab%20Project.png" width="624" height="300"/>
+
+## 3. Create the notebook
 
 You can create the notebook in DSX using the URL of the notebook that is in this git repo (or similarly from a local file if you cloned the repo).
 
@@ -91,7 +159,7 @@ You can create the notebook in DSX using the URL of the notebook that is in this
 
 ![](doc/source/images/create_notebook_from_url.png)
 
-## 3. Create IBM Cloud services
+## 4. Create IBM Cloud services
 
 Create the following IBM Cloud services by clicking the `Deploy to Bluemix` button, or use these links to create the services in the IBM Cloud UI.
 
@@ -101,7 +169,7 @@ Create the following IBM Cloud services by clicking the `Deploy to Bluemix` butt
   
 [![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ibm/pixiedust-facebook-analysis)
 
-## 4. Add credentials
+## 5. Add credentials
 
 Find the notebook cell after `1.5. Add Service Credentials From IBM Cloud for Watson Services`.
 
@@ -111,7 +179,7 @@ Replace the five <add_...> placeholder values with information from the `Service
 
 > Note: This cell is marked as a `hidden_cell` because it will contain sensitive credentials.
 
-## 5. Add the CSV file
+## 6. Add the CSV file
 
 #### Add the CSV file to the notebook
 Use `Find and Add Data` (look for the `10/01` icon)
@@ -164,7 +232,7 @@ The inserted code includes a dictionary with credentials assigned to a variable
 with a name like `credentials_1`. It may have a different name (e.g. `credentials_2`).
 Rename it or reassign it if needed. The notebook code assumes it will be `credentials_1`.
 
-## 6. Run the notebook
+## 7. Run the notebook
 
 When a notebook is executed, what is actually happening is that each code cell in
 the notebook is executed, in order, from top to bottom.
@@ -190,7 +258,7 @@ There are several ways to execute the code cells in your notebook:
     panel. Here you can schedule your notebook to be executed once at some future
     time, or repeatedly at your specified interval.
 
-## 7. Analyze the results
+## 8. Analyze the results
 
 ### Part I - Enrich
 
