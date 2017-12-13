@@ -71,7 +71,9 @@ described in detail below.
 1. [Save your work](#9-save-your-work)
 
 
-## 1. Sign up for the Data Science Experience.   We recommend using the Firefox browser.
+## 1. Sign up for the Data Science Experience.   
+
+We recommend using the Firefox browser.
 
 __NOTE__: If you already have a DSX account, please skip to __Step 2__.
 
@@ -134,7 +136,7 @@ __NOTE__: If you already have a DSX account, please skip to __Step 2__.
 
  >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Create%20New%20Project.png" width="624" height="300"/>
 
-3. Type a name for your project. For instance, "DSX Lab". A Spark service and an object storage will be automatically selected as well as a container with a default name. A container is a directory on the object storage. Click on Create.
+3. Type a name for your project. For instance, "Cognitive Lab". A Spark service and an object storage will be automatically selected as well as a container with a default name. A container is a directory on the object storage. Click on Create.
 
  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Enter%20Project%20Information.png" width="624" height="300"/>
 
