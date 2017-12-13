@@ -8,11 +8,10 @@ We'll use the enriched data to answer questions like:
 
 > What sentiment is most prevalent in the posts with the highest engagement performance?
 
-> What are the relationships between social tone of article text, the main article entity, and engagement performance?
 
 These types of insights are especially beneficial for marketing analysts who are interested in understanding and improving brand perception, product performance, customer satisfaction, and ways to engage their audiences.
 
-It is important to note that this Code Pattern is meant to be used as a guided experiment, rather than an application with one set output. The standard Facebook Analytics export features text from posts, articles, and thumbnails, along with standard Facebook performance metrics such as likes, shares, and impressions. This unstructured content was then enriched with Watson APIs to extract keywords, entities, sentiment, and tone.
+The standard Facebook Analytics export features text from posts, articles, and thumbnails, along with standard Facebook performance metrics such as likes, shares, and impressions. For this exercise, we have enriched the posts content with Watson APIs to extract keywords, entities, sentiment, and tone. Similar processing could be done for the articles and thumbnail text as well. 
 
 After data is enriched with Watson APIs, there are several different types of ways to analyze it. The Data Science Experience (DSX) provides a robust, yet flexible method of exploring the unstructured, enriched Facebook content.
 
@@ -56,10 +55,6 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [Cognitive](https://developer.ibm.com/watson/): Watson is a cognitive technology that can think like a human.
 * [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
-
-# Watch the Video
-
-[![](http://img.youtube.com/vi/UIkjFo9o3vI/0.jpg)](https://www.youtube.com/watch?v=UIkjFo9o3vI)
 
 # Steps
 
