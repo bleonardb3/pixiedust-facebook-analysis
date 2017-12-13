@@ -60,7 +60,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 Follow these steps to setup and run this Code Pattern. The steps are
 described in detail below.
 
-1. [Sign up for the Data Science Experience](#1-Sign-up-for-the-Data-Science-Experience)
+1. [Sign up for the Data Science Experience](#1-sign-up-for-the-Data-Science-Experience)
 1. [Create a project](#2-create-a-project)
 1. [Create the notebook](#3-create-the-notebook)
 1. [Create IBM Cloud services](#4-create-ibm-cloud-services)
