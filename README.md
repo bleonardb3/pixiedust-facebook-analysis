@@ -71,7 +71,7 @@ described in detail below.
 1. [Save your work](#9-save-your-work)
 
 
-## 1. Sign up for the Data Science Experience.   
+## 1. Sign up for the Data Science Experience   
 
 We recommend using the Firefox browser.
 
@@ -155,7 +155,7 @@ You can create the notebook in DSX using the URL of the notebook that is in this
 1. Optionally, enter a description for the notebook.
 1. Enter this Notebook URL:
     ```
-    https://github.com/IBM/pixiedust-facebook-analysis/blob/master/notebooks/pixiedust_facebook_analysis.ipynb
+   https://github.com/bleonardb3/pixiedust-facebook-analysis/blob/master/notebooks/pixiedust_facebook_analysis.ipynb
     ```
 1. Click the `Create Notebook` button.
 
