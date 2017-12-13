@@ -60,8 +60,9 @@ When the reader has completed this Code Pattern, they will understand how to:
 Follow these steps to setup and run this Code Pattern. The steps are
 described in detail below.
 
-1. [Sign up for the Data Science Experience](#1-sign-up-for-the-data-science-experience)
-1. [Create the notebook](#2-create-the-notebook)
+1. [Sign up for the Data Science Experience](#1-sign-up-for-the-Data-Science-Experience)
+1. [Create a project](#2-create-a-project)
+1. [Create the notebook](#3create-the-notebook)
 1. [Create IBM Cloud services](#4-create-ibm-cloud-services)
 1. [Add credentials](#5-add-credentials)
 1. [Add the CSV file](#6-add-the-csv-file)
@@ -70,7 +71,7 @@ described in detail below.
 1. [Save your work](#9-save-your-work)
 
 
-## Step 1. Sign up for the IBM Data Science Experience (DSX).   We recommend using the Firefox browser.
+## 1. Sign up for the Data Science Experience.   We recommend using the Firefox browser.
 
 __NOTE__: If you already have a DSX account, please skip to __Step 2__.
 
@@ -123,7 +124,7 @@ __NOTE__: If you already have a DSX account, please skip to __Step 2__.
 
 >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Data%20Science%20Experience%20Welcome.png" width="624" height="300"/>
 
-## Step 2. Create a project
+## 2. Create a project
 
 1. Click on Projects > View All Projects to see a list of your projects. You should only see a default project.
 
