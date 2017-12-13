@@ -155,7 +155,7 @@ You can create the notebook in DSX using the URL of the notebook that is in this
 1. Optionally, enter a description for the notebook.
 1. Enter this Notebook URL:
    
-   https://github.com/bleonardb3/pixiedust-facebook-analysis/blob/master/notebooks/pixiedust_facebook_analysis.ipynb
+   https://github.com/bleonardb3/pixiedust-facebook-analysis/blob/master/notebooks/Facebook%20Analysis.ipynb
    
 1. Click the `Create Notebook` button.
 
