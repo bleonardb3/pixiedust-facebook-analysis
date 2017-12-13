@@ -8,7 +8,6 @@ We'll use the enriched data to answer questions like:
 
 > What sentiment is most prevalent in the posts with the highest engagement performance?
 
-
 These types of insights are especially beneficial for marketing analysts who are interested in understanding and improving brand perception, product performance, customer satisfaction, and ways to engage their audiences.
 
 The standard Facebook Analytics export features text from posts, articles, and thumbnails, along with standard Facebook performance metrics such as likes, shares, and impressions. For this exercise, we have enriched the posts content with Watson APIs to extract keywords, entities, sentiment, and tone. Similar processing could be done for the articles and thumbnail text as well. 
@@ -63,12 +62,12 @@ described in detail below.
 
 1. [Sign up for the Data Science Experience](#1-sign-up-for-the-data-science-experience)
 1. [Create the notebook](#2-create-the-notebook)
-1. [Create IBM Cloud services](#3-create-ibm-cloud-services)
-1. [Add credentials](#4-add-credentials)
-1. [Add the CSV file](#5-add-the-csv-file)
-1. [Run the notebook](#6-run-the-notebook)
-1. [Analyze the results](#7-analyze-the-results)
-1. [Save your work](#8-save-your-work)
+1. [Create IBM Cloud services](#4-create-ibm-cloud-services)
+1. [Add credentials](#5-add-credentials)
+1. [Add the CSV file](#6-add-the-csv-file)
+1. [Run the notebook](#7-run-the-notebook)
+1. [Analyze the results](#8-analyze-the-results)
+1. [Save your work](#9-save-your-work)
 
 
 ## Step 1. Sign up for the IBM Data Science Experience (DSX).   We recommend using the Firefox browser.
@@ -313,7 +312,7 @@ The right combination will give you insights into the impact of
 your facebook posts. Once you uncover the insights, find the best
 presentation to convince others.
 
-## 8. Save your work
+## 9. Save your work
 
 ### How to save your work:
 
