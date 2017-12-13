@@ -148,7 +148,7 @@ __NOTE__: If you already have a DSX account, please skip to __Step 2__.
 
 You can create the notebook in DSX using the URL of the notebook that is in this git repo (or similarly from a local file if you cloned the repo).
 
-1. Use the menu on the left to select `My Projects` and then `Default Project`.
+1. Use the menu on the left to select `My Projects` and then `Cognitive Lab`.
 1. Click on `Add notebooks` (upper right) to create a notebook.
 1. Select the `From URL` tab.
 1. Enter a name for the notebook.
