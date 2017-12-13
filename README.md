@@ -71,7 +71,7 @@ described in detail below.
 1. [Save your work](#9-save-your-work)
 
 
-## 1. Sign up for the Data Science Experience   
+## 1. Sign up for the Data Science Experience
 
 We recommend using the Firefox browser.
 
@@ -163,7 +163,7 @@ You can create the notebook in DSX using the URL of the notebook that is in this
 
 ## 4. Create IBM Cloud services
 
-Create the following IBM Cloud services by clicking the `Deploy to Bluemix` button, or use these links to create the services in the IBM Cloud UI.
+Create the following IBM Cloud services by clicking the `Deploy to IBM Cloud` button below, or use these links to create the services in the IBM Cloud UI.
 
   * [**Visual Recognition**](https://console.ng.bluemix.net/catalog/services/visual-recognition)
   * [**Natural Language Understanding**](https://console.ng.bluemix.net/catalog/services/natural-language-understanding)
