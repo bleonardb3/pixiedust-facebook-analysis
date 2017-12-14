@@ -217,7 +217,7 @@ https://github.com/bleonardb3/pixiedust-facebook-analysis/blob/master/data/examp
 ![](doc/source/images/Download%20Data.png)
 
 ### 6.3 Add the CSV file to the notebook
-Use `Find and Add Data` (look for the `10/01` icon)
+Use `Find and Add Data` ![](doc/source/images/OneZero.png)
 and its `Files` tab. From there you can click
 `browse` and add a .csv file from your computer.
 
@@ -226,7 +226,7 @@ and its `Files` tab. From there you can click
 ### 6.4 Insert to code
 Find the notebook cell after `2.1 Load data from Object Storage`. Place your cursor after `# Insert pandas DataFrame`. Make sure this cell is selected before inserting code.
 
-Using the file that you added above (under the 10/01 Files tab),
+Using the file that you added above (under the ![](doc/source/images/OneZero.png) tab),
 use the `Insert to code` drop-down menu.
 Select `Insert Pandas DataFrame` from the drop-down menu.
 
