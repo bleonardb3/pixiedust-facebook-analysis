@@ -190,10 +190,10 @@ Create the following IBM Cloud services by clicking the `Deploy to IBM Cloud` bu
 ![](doc/source/images/Service_Credentials.png)
 
 ### 5.3 Click on New Credentials
-![](doc/source/images/New_Credentials.png)
+![](doc/source/images/New_Credential.png)
 
 ### 5.4 Click on Add 
-![](doc/source/images/Add.png)
+![](doc/source/images/Add_Credential.png)
 
 ### 5.5 Click on View Credentials and then copy the api key. 
 ![](doc/source/images/View_Credentials.png)
@@ -201,7 +201,7 @@ Create the following IBM Cloud services by clicking the `Deploy to IBM Cloud` bu
 ### 5.6 Find the notebook cell after `1.5. Add Service Credentials From IBM Cloud for Watson Services`. Replace the <add_vr_api_key> with the copied key. 
 ![](doc/source/images/Replace_vr_key.png)
 
-Replace the five <add_...> placeholder values with information from the `Service Credentials` tab in IBM Cloud. Use your IBM Cloud dashboard to find each of the services and click on the `Service Credentials` tab. In some cases, you might need to create credentials with the `New Credential` option.
+### 5.7 Follow the same procedure to get the username and password credentials for the Natural Language Understanding service and the Tone Analyzer service.  
 
 ![](doc/source/images/add_credentials.png)
 
