@@ -181,9 +181,25 @@ Create the following IBM Cloud services by clicking the `Deploy to IBM Cloud` bu
 ![](doc/source/images/List%20of%20Services.png)
 
 
-## 5. Add credentials
+## 5. Add service credentials
 
-Find the notebook cell after `1.5. Add Service Credentials From IBM Cloud for Watson Services`.
+### 5.1 Click on the Visual Recognition Service
+![](doc/source/images/Visual_Recognition.png)
+
+### 5.2 Click on Service Credentials
+![](doc/source/images/Service_Credentials.png)
+
+### 5.3 Click on New Credentials
+![](doc/source/images/New_Credentials.png)
+
+### 5.4 Click on Add 
+![](doc/source/images/Add.png)
+
+### 5.5 Click on View Credentials and then copy the api key. 
+![](doc/source/images/View_Credentials.png)
+
+### 5.6 Find the notebook cell after `1.5. Add Service Credentials From IBM Cloud for Watson Services`. Replace the <add_vr_api_key> with the copied key. 
+![](doc/source/images/Replace_vr_key.png)
 
 Replace the five <add_...> placeholder values with information from the `Service Credentials` tab in IBM Cloud. Use your IBM Cloud dashboard to find each of the services and click on the `Service Credentials` tab. In some cases, you might need to create credentials with the `New Credential` option.
 
