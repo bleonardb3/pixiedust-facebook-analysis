@@ -168,6 +168,19 @@ Create the following IBM Cloud services by clicking the `Deploy to IBM Cloud` bu
 ### 4.2 Click on the Deploy button
 ![](doc/source/images/Deploy%20to%20Bluemix.png)
 
+### 4.3 Click on the Delivery Pipeline
+![](doc/source/images/Delivery%20Pipeline.png)
+
+### 4.4 Wait until the Deploy passed message is display. 
+![](doc/source/images/Deploy%20Passed.png)
+
+### 4.4 Click on the "Hamburger" icon at the top left ![](doc/source/images/Hamburger.png) and then click on Dashboard
+![](doc/source/images/Select%20Dashboard.png)
+
+### 4.5 You should see 3 new services deployed as below. 
+![](doc/source/images/List%20of%20Services.png)
+
+
 ## 5. Add credentials
 
 Find the notebook cell after `1.5. Add Service Credentials From IBM Cloud for Watson Services`.
