@@ -183,6 +183,13 @@ Replace the five <add_...> placeholder values with information from the `Service
 
 ## 6. Add the CSV file
 
+### 6.1 Download the csv file from here:
+https://github.com/bleonardb3/pixiedust-facebook-analysis/blob/master/data/example_facebook_data.csv
+
+### 6.2 Right click on Raw then click on Save link as ....
+
+![](doc/source/images/Download Data.png)
+
 #### Add the CSV file to the notebook
 Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click
