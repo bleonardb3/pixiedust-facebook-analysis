@@ -132,11 +132,11 @@ __NOTE__: If you already have a DSX account, please skip to __Step 2__.
 
 3. Type a name for your project. For instance, "Cognitive Lab". A Spark service and an object storage will be automatically selected as well as a container with a default name. A container is a directory on the object storage. Click on Create.
 
- <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Enter%20Project%20Information.png" width="624" height="300"/>
+ ![](doc/source/images/New_Project.png)
 
  > You are now in your new project where you can create notebooks and data assets as well as add collaborators.
  
- <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20DSX%20Lab%20Project.png" width="624" height="300"/>
+ ![](doc/source/images/New_Project_Display.png)
 
 ## 3. Create the notebook
 
