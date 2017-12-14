@@ -153,7 +153,7 @@ You can create the notebook in DSX using the URL of the notebook that is in this
    
 1. Click the `Create Notebook` button.
 
-![](doc/source/images/create_notebook_from_url.png)
+![](doc/source/images/New_Notebook.png)
 
 ## 4. Create IBM Cloud services
 
