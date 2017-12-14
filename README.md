@@ -163,7 +163,10 @@ Create the following IBM Cloud services by clicking the `Deploy to IBM Cloud` bu
   * [**Natural Language Understanding**](https://console.ng.bluemix.net/catalog/services/natural-language-understanding)
   * [**Tone Analyzer**](https://console.ng.bluemix.net/catalog/services/tone-analyzer)
   
-[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ibm/pixiedust-facebook-analysis)
+### 4.1 [![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ibm/pixiedust-facebook-analysis)
+
+### 4.2 Click on the Deploy button
+![](doc/source/images/Deploy%20to%20Bluemix.png)
 
 ## 5. Add credentials
 
