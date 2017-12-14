@@ -4,12 +4,6 @@ In this Code Pattern, we will use a Jupyter notebook to glean insights from a va
 
 We'll start with data exported from Facebook Analytics. We'll enrich the data with Watson’s Natural Language Understanding (NLU), Tone Analyzer and Visual Recognition.
 
-We'll use the enriched data to answer questions like:
-
-> What sentiment is most prevalent in the posts with the highest engagement performance?
-
-These types of insights are especially beneficial for marketing analysts who are interested in understanding and improving brand perception, product performance, customer satisfaction, and ways to engage their audiences.
-
 The standard Facebook Analytics export features text from posts, articles, and thumbnails, along with standard Facebook performance metrics such as likes, shares, and impressions. For this exercise, we have enriched the posts content with Watson APIs to extract keywords, entities, sentiment, and tone. Similar processing could be done for the articles and thumbnail text as well. 
 
 After data is enriched with Watson APIs, there are several different types of ways to analyze it. The Data Science Experience (DSX) provides a robust, yet flexible method of exploring the unstructured, enriched Facebook content.
