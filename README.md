@@ -186,21 +186,18 @@ Replace the five <add_...> placeholder values with information from the `Service
 ### 6.1 Download the csv file from here:
 https://github.com/bleonardb3/pixiedust-facebook-analysis/blob/master/data/example_facebook_data.csv
 
-### 6.2 Right click on Raw then click on Save link as ....
+### 6.2 Right click on Raw then click on Save link as .... to save the file to the computer. 
 
 ![](doc/source/images/Download%20Data.png)
 
-#### Add the CSV file to the notebook
+### 6.3 Add the CSV file to the notebook
 Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click
 `browse` and add a .csv file from your computer.
 
 ![](doc/source/images/add_file.png)
 
-> Note:  If you don't have your own data, you can get our example by cloning
-this git repo. Look in the `data/example_input` directory.
-
-#### Insert to code
+### 6.4 Insert to code
 Find the notebook cell after `2.1 Load data from Object Storage`. Place your cursor after `# Insert pandas DataFrame`. Make sure this cell is selected before inserting code.
 
 Using the file that you added above (under the 10/01 Files tab),
@@ -214,7 +211,7 @@ sensitive credentials.
 
 ![](doc/source/images/inserted_pandas.png)
 
-#### Fix-up variable names
+### 6.5  Fix-up variable names
 The inserted code includes a generated method with credentials and then calls
 the generated method to set a variable with a name like `df_data_1`. If you do
 additional inserts, the method can be re-used and the variable will change
@@ -223,7 +220,7 @@ additional inserts, the method can be re-used and the variable will change
 Later in the notebook, we set `df = df_data_1`. So you might need to
 fix the variable name `df_data_1` to match your inserted code or vice versa.
 
-#### Add file credentials
+### 6.6 Add file credentials
 
 We want to write the enriched file to the same container that we used above. So now we'll use the same file drop-down to insert credentials. We'll use them later when we write out the enriched CSV file.
 
@@ -236,7 +233,7 @@ Use the CSV file's drop-down menu again. This time select `Insert Credentials`.
 
 Note: This cell is marked as a `hidden_cell` because it contains sensitive credentials.
 
-#### Fix-up variable names
+### 6.7 Fix-up variable names
 The inserted code includes a dictionary with credentials assigned to a variable
 with a name like `credentials_1`. It may have a different name (e.g. `credentials_2`).
 Rename it or reassign it if needed. The notebook code assumes it will be `credentials_1`.
@@ -256,7 +253,7 @@ format is `In [x]:`. Depending on the state of the notebook, the `x` can be:
 There are several ways to execute the code cells in your notebook:
 
 * One cell at a time.
-  * Select the cell, and then press the `Play` button in the toolbar.
+  * Select the cell, and then press the `Play` button in the toolbar, or select the cell, and then press <Shift> and <Enter> keys
 * Batch mode, in sequential order.
   * From the `Cell` menu bar, there are several options available. For example, you
     can `Run All` cells in your notebook, or you can `Run All Below`, that will
