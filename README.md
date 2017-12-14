@@ -130,7 +130,7 @@ __NOTE__: If you already have a DSX account, please skip to __Step 2__.
 
  >  <img src="https://github.com/jpatter/ML-POT/blob/master/Images/BLB%20Create%20New%20Project.png" width="624" height="300"/>
 
-3. Type a name for your project. For instance, "Cognitive Lab". A Spark service and an object storage will be automatically selected as well as a container with a default name. A container is a directory on the object storage. Click on Create.
+3. Type a name for your project. For instance, "Cognitive Lab". A Spark service and an object storage service will be automatically selected. Click on Create.
 
  ![](doc/source/images/New_Project.png)
 
