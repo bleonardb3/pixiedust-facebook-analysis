@@ -279,7 +279,7 @@ format is `In [x]:`. Depending on the state of the notebook, the `x` can be:
 There are several ways to execute the code cells in your notebook:
 
 * One cell at a time.
-  * Select the cell, and then press the `Play` button in the toolbar, or select the cell, and then press <Shift> and <Enter> keys
+  * Select the cell, and then press the `Play` button in the toolbar, or select the cell, and then press Shift + Enter keys
 * Batch mode, in sequential order.
   * From the `Cell` menu bar, there are several options available. For example, you
     can `Run All` cells in your notebook, or you can `Run All Below`, that will
