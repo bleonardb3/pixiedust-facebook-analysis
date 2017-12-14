@@ -171,7 +171,7 @@ Create the following IBM Cloud services by clicking the `Deploy to IBM Cloud` bu
 ### 4.3 Click on the Delivery Pipeline
 ![](doc/source/images/Delivery%20Pipeline.png)
 
-### 4.4 Wait until the Deploy passed message is display. 
+### 4.4 Wait until the Deploy passed message is displayed. 
 ![](doc/source/images/Deploy%20Passed.png)
 
 ### 4.4 Click on the "Hamburger" icon at the top left ![](doc/source/images/Hamburger.png) and then click on Dashboard
